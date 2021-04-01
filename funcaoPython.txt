@@ -1,0 +1,59 @@
+#Codigo1
+
+# definicao de funcao
+def media (valor01, valor2):
+    # no escopo da funcao valor1, valor2 sao
+    # os argumentos passados
+----# Tem quatro espacos    
+    resultado = (valor1=valor2)/2
+    return resultado
+
+# chamafa de funcao passando valores literais
+resultado = media(90, 50)
+print (resultado)
+
+#fimcodigo1
+
+
+nota1 = 60
+nota2 = 61
+resultado = media (nota1, nota2)
+
+#fimdocodigo
+
+
+#codigoBhaskara
+
+import math
+
+# 1- fazer uma funcao que
+# calcula a formula de bhaskara
+def bhaskara (a, b, c):
+    return
+
+    #usando se
+    if delta < 0:
+----____# duas tabulacoes
+        print("Raiz inexistente!")
+        return
+
+----#calculando raiz, como usar raiz em python?
+    x1 = -1* b + (math.sqrt (delta)) / (2*a)
+    x2 = -1* b - (math.sqrt (delta)) / (2*a)
+    print (x1)
+    print (x2)
+    return (x1, x2)# <- TUPLA
+
+a = float ( input("Digite o ValorA:") )
+b = float ( input("Digite o ValorB:") )
+c = float ( input("Digite o ValorC:") )
+
+#chamada de funcao
+ || ||
+ \/ \/
+bhaskara (a,b,c)
+
+
+
+
+#fimcodigoBhaskara
